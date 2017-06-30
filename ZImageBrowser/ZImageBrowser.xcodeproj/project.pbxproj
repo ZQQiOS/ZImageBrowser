@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		021834761F0342B900472EC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 021834751F0342B900472EC6 /* main.m */; };
+		021834791F0342B900472EC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 021834781F0342B900472EC6 /* AppDelegate.m */; };
+		0218347C1F0342B900472EC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0218347B1F0342B900472EC6 /* ViewController.m */; };
+		0218347F1F0342B900472EC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0218347D1F0342B900472EC6 /* Main.storyboard */; };
+		021834821F0342B900472EC6 /* ZImageBrowser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 021834801F0342B900472EC6 /* ZImageBrowser.xcdatamodeld */; };
+		021834841F0342B900472EC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 021834831F0342B900472EC6 /* Assets.xcassets */; };
+		021834871F0342B900472EC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 021834851F0342B900472EC6 /* LaunchScreen.storyboard */; };
+		0218349D1F0348D600472EC6 /* ZContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0218349C1F0348D600472EC6 /* ZContentModel.m */; };
+		021834A71F034C9E00472EC6 /* ZContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 021834A51F034C9E00472EC6 /* ZContentCell.m */; };
+		021834A81F034C9E00472EC6 /* ZContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 021834A61F034C9E00472EC6 /* ZContentCell.xib */; };
+		021834AB1F035E0500472EC6 /* UIImageView+setCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 021834AA1F035E0500472EC6 /* UIImageView+setCornerRadius.m */; };
+		02747BE91F063799000E034E /* ZImageShowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02747BE71F063799000E034E /* ZImageShowController.m */; };
+		F2D0447ABD680B4ACB20E6F7 /* libPods-ZImageBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4182CD0E95E70298B30E144 /* libPods-ZImageBrowser.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		021834711F0342B900472EC6 /* ZImageBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZImageBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		021834751F0342B900472EC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		021834771F0342B900472EC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		021834781F0342B900472EC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0218347A1F0342B900472EC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0218347B1F0342B900472EC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0218347E1F0342B900472EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		021834811F0342B900472EC6 /* ZImageBrowser.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZImageBrowser.xcdatamodel; sourceTree = "<group>"; };
+		021834831F0342B900472EC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		021834861F0342B900472EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		021834881F0342B900472EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0218349B1F0348C900472EC6 /* ZContentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZContentModel.h; sourceTree = "<group>"; };
+		0218349C1F0348D600472EC6 /* ZContentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZContentModel.m; sourceTree = "<group>"; };
+		021834A41F034C9E00472EC6 /* ZContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZContentCell.h; sourceTree = "<group>"; };
+		021834A51F034C9E00472EC6 /* ZContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZContentCell.m; sourceTree = "<group>"; };
+		021834A61F034C9E00472EC6 /* ZContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZContentCell.xib; sourceTree = "<group>"; };
+		021834A91F035E0500472EC6 /* UIImageView+setCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+setCornerRadius.h"; sourceTree = "<group>"; };
+		021834AA1F035E0500472EC6 /* UIImageView+setCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+setCornerRadius.m"; sourceTree = "<group>"; };
+		02747BE61F063799000E034E /* ZImageShowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZImageShowController.h; sourceTree = "<group>"; };
+		02747BE71F063799000E034E /* ZImageShowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZImageShowController.m; sourceTree = "<group>"; };
+		6ACA8F60D22A4C219CB5553A /* Pods-ZImageBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZImageBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZImageBrowser/Pods-ZImageBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		99A342F6B04FD0C086964EEE /* Pods-ZImageBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZImageBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZImageBrowser/Pods-ZImageBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+		E4182CD0E95E70298B30E144 /* libPods-ZImageBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZImageBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0218346E1F0342B900472EC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D0447ABD680B4ACB20E6F7 /* libPods-ZImageBrowser.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		021834681F0342B900472EC6 = {
+			isa = PBXGroup;
+			children = (
+				021834731F0342B900472EC6 /* ZImageBrowser */,
+				021834721F0342B900472EC6 /* Products */,
+				DA1C8A2B7ED84063299217F1 /* Pods */,
+				E5DF991BFCAFFD7C53C65A67 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		021834721F0342B900472EC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				021834711F0342B900472EC6 /* ZImageBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		021834731F0342B900472EC6 /* ZImageBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				021834771F0342B900472EC6 /* AppDelegate.h */,
+				021834781F0342B900472EC6 /* AppDelegate.m */,
+				0218347A1F0342B900472EC6 /* ViewController.h */,
+				0218347B1F0342B900472EC6 /* ViewController.m */,
+				0218349B1F0348C900472EC6 /* ZContentModel.h */,
+				0218349C1F0348D600472EC6 /* ZContentModel.m */,
+				021834A41F034C9E00472EC6 /* ZContentCell.h */,
+				021834A51F034C9E00472EC6 /* ZContentCell.m */,
+				021834A61F034C9E00472EC6 /* ZContentCell.xib */,
+				021834A91F035E0500472EC6 /* UIImageView+setCornerRadius.h */,
+				021834AA1F035E0500472EC6 /* UIImageView+setCornerRadius.m */,
+				02747BE61F063799000E034E /* ZImageShowController.h */,
+				02747BE71F063799000E034E /* ZImageShowController.m */,
+				0218347D1F0342B900472EC6 /* Main.storyboard */,
+				021834831F0342B900472EC6 /* Assets.xcassets */,
+				021834851F0342B900472EC6 /* LaunchScreen.storyboard */,
+				021834881F0342B900472EC6 /* Info.plist */,
+				021834801F0342B900472EC6 /* ZImageBrowser.xcdatamodeld */,
+				021834741F0342B900472EC6 /* Supporting Files */,
+			);
+			path = ZImageBrowser;
+			sourceTree = "<group>";
+		};
+		021834741F0342B900472EC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				021834751F0342B900472EC6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA1C8A2B7ED84063299217F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99A342F6B04FD0C086964EEE /* Pods-ZImageBrowser.debug.xcconfig */,
+				6ACA8F60D22A4C219CB5553A /* Pods-ZImageBrowser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E5DF991BFCAFFD7C53C65A67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4182CD0E95E70298B30E144 /* libPods-ZImageBrowser.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		021834701F0342B900472EC6 /* ZImageBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0218348B1F0342B900472EC6 /* Build configuration list for PBXNativeTarget "ZImageBrowser" */;
+			buildPhases = (
+				31519199228E5AE527182497 /* [CP] Check Pods Manifest.lock */,
+				0218346D1F0342B900472EC6 /* Sources */,
+				0218346E1F0342B900472EC6 /* Frameworks */,
+				0218346F1F0342B900472EC6 /* Resources */,
+				3B6D8E7DE3160D91BFB50AAE /* [CP] Embed Pods Frameworks */,
+				3F3019DD6FA6BCA71757CCC4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZImageBrowser;
+			productName = ZImageBrowser;
+			productReference = 021834711F0342B900472EC6 /* ZImageBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		021834691F0342B900472EC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = SH;
+				TargetAttributes = {
+					021834701F0342B900472EC6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0218346C1F0342B900472EC6 /* Build configuration list for PBXProject "ZImageBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 021834681F0342B900472EC6;
+			productRefGroup = 021834721F0342B900472EC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				021834701F0342B900472EC6 /* ZImageBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0218346F1F0342B900472EC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				021834871F0342B900472EC6 /* LaunchScreen.storyboard in Resources */,
+				021834841F0342B900472EC6 /* Assets.xcassets in Resources */,
+				021834A81F034C9E00472EC6 /* ZContentCell.xib in Resources */,
+				0218347F1F0342B900472EC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31519199228E5AE527182497 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZImageBrowser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B6D8E7DE3160D91BFB50AAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZImageBrowser/Pods-ZImageBrowser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F3019DD6FA6BCA71757CCC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZImageBrowser/Pods-ZImageBrowser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0218346D1F0342B900472EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				021834AB1F035E0500472EC6 /* UIImageView+setCornerRadius.m in Sources */,
+				0218347C1F0342B900472EC6 /* ViewController.m in Sources */,
+				021834791F0342B900472EC6 /* AppDelegate.m in Sources */,
+				02747BE91F063799000E034E /* ZImageShowController.m in Sources */,
+				021834A71F034C9E00472EC6 /* ZContentCell.m in Sources */,
+				021834761F0342B900472EC6 /* main.m in Sources */,
+				0218349D1F0348D600472EC6 /* ZContentModel.m in Sources */,
+				021834821F0342B900472EC6 /* ZImageBrowser.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0218347D1F0342B900472EC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0218347E1F0342B900472EC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		021834851F0342B900472EC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				021834861F0342B900472EC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		021834891F0342B900472EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0218348A1F0342B900472EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0218348C1F0342B900472EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99A342F6B04FD0C086964EEE /* Pods-ZImageBrowser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZImageBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZQQ.ZImageBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		0218348D1F0342B900472EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ACA8F60D22A4C219CB5553A /* Pods-ZImageBrowser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZImageBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZQQ.ZImageBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0218346C1F0342B900472EC6 /* Build configuration list for PBXProject "ZImageBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				021834891F0342B900472EC6 /* Debug */,
+				0218348A1F0342B900472EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0218348B1F0342B900472EC6 /* Build configuration list for PBXNativeTarget "ZImageBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0218348C1F0342B900472EC6 /* Debug */,
+				0218348D1F0342B900472EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		021834801F0342B900472EC6 /* ZImageBrowser.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				021834811F0342B900472EC6 /* ZImageBrowser.xcdatamodel */,
+			);
+			currentVersion = 021834811F0342B900472EC6 /* ZImageBrowser.xcdatamodel */;
+			path = ZImageBrowser.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 021834691F0342B900472EC6 /* Project object */;
+}
